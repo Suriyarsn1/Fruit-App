@@ -13,7 +13,7 @@ function App() {
                 <h1>Enter to the food world</h1>
             </div>
             <div class="form">
-                <form action="http://localhost:5000/addfriut" method="get">
+                <form action="http://localhost:5000/addfruit" method="get">
                     <input type="text" name="fruit" placeholder="Enter fruits Name..."></input><br></br>
                     <div class="button1">
                         <button>Add</button>
