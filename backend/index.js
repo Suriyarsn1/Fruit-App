@@ -2,7 +2,7 @@ const express=require("express")
 
 const app=express()
 var arr=[]
-app.get("/",function(req,res){
+app.get("/addfruit",function(req,res){
     arr.push(req.query.fruit)
     res.send(arr)
    
