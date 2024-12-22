@@ -15,11 +15,6 @@ const Sweet=mongoose.model("Sweet",{
     name:String
 },"sweet")
 
-Sweet.find().then(function(retdata){
-   }).catch(function(){
-    console.log("sorry")
-   })
-
 app.get("/fruitlist",function(req,res){
     Sweet.find().then(function(retdata){
        
